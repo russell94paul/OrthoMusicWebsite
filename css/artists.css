@@ -7,6 +7,11 @@
  *{
     box-sizing: border-box;
    }
+
+   .img-fluid {
+       border: 4px solid #64a19d;
+       border-radius: 100%;
+   }
   
    .v-header {
      height: 100vh;
