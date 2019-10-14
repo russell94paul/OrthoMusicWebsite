@@ -63,8 +63,9 @@
 }
 
 .header-image {
-  size:80%;
-  padding-top: 10rem;
+  max-width: 85%;
+  height: auto;
+  padding-top: 8rem;
   opacity: 0.2;
 }
 
