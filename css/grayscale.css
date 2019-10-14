@@ -246,28 +246,28 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .projects-section .featured-text {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    padding: 0 0 0 2rem;
+    padding: 0 0 0 1rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 2rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
