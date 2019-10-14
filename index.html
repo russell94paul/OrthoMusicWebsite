@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/grayscale.css" rel="stylesheet">
 
   <!-- Venobox for creating video gallery-->
   <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
@@ -51,19 +51,26 @@
       </div>
     </div>
   </nav>
-
+  
   <!-- Header -->
-  <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <!--Keep this as it is alternative to Ortho Music Logo -->
-        <!--<h1 class="mx-auto my-0 text-uppercase">Ortho Music</h1> -->
-        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-        <!--<a href="#about" class="btn btn-primary js-scroll-trigger">Who are we?</a> **KEEP AS EXAMPLE FOR FUTURE REF**-->
-        <a class="venobox btn btn-primary" data-autoplay="true" data-vbtype="video" href="https://youtu.be/rmFBxsDHVgU">This is us</a>
-      </div>
-    </div>
-  </header>
+<header class="v-header container">
+
+  <div class="fullscreen-video-wrap">
+      <video src="img/dj_video_bg_1.mp4" autoplay ="false" loop="true"></video>
+        
+
+        <a href="#" class="btn">This is us</a>
+  </div>
+  <div class="header-overlay"></div>
+  <div class="header-content">
+      <img src="img/orthomusic_logo_round.png" class= "header-image">
+      <a href="#" class="btn">This is us</a>
+  </div>
+  
+
+</header>
+
+
 
   <!-- About Section -->
   <section id="about" class="about-section text-center">
