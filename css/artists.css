@@ -26,6 +26,7 @@
      padding-right:1rem;
      margin:auto;
      text-align: center;
+     overflow: hidden;
    }
   
    .fullscreen-video-wrap {
