@@ -376,10 +376,14 @@
     padding: 5rem 0;
   }
   
-
+  
   .center-block {
       max-width: 50%;
       height:auto;
       margin: auto;
       padding-bottom: 2rem;
+  }
+
+  .below-social-spacer {
+      padding: 2.5rem;
   }
