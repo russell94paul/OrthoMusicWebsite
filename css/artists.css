@@ -22,7 +22,7 @@
    }
   
    .container {
-     max-width: 960px;
+     max-width: auto;
      padding-left:1rem;
      padding-right:1rem;
      margin:auto;
@@ -246,6 +246,7 @@
   .about-section {
     padding-top: 2rem;
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+    margin:auto;
   }
   
   .about-section p {
