@@ -388,3 +388,15 @@
   .below-social-spacer {
       padding: 2.5rem;
   }
+
+  .fb-page-wrapper{
+    border-radius: 60px;
+    background-color:#64a19d;
+    padding: 3rem;
+  }
+  .fb-page {
+    background-color: #161616;
+    border-radius: 60px;
+    padding: 3rem;
+
+  }
