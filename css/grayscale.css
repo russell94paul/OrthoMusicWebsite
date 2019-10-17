@@ -5,8 +5,10 @@
  */
  
  *{
-  box-sizing: border-box;
+  box-sizing: none;
  }
+
+
 
  .v-header {
    height: 100vh;
@@ -249,10 +251,12 @@
 
 .projects-section {
   padding: 2rem 0;
+  overflow-y: hidden;
 }
 
 .projects-section .featured-text {
   padding: 1rem;
+  
 }
 
 @media (min-width: 992px) {
