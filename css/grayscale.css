@@ -84,7 +84,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #161616;
 }
 
 #mainNav .navbar-toggler {
@@ -105,7 +105,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade (#161616, 80%);
   outline: none;
   background-color: transparent;
 }

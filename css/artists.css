@@ -283,6 +283,18 @@
       width: 30%;
     }
   }
+
+  .row {
+    margin: auto;
+    display: block;
+    justify-content: center;
+  }
+
+  .social-icons-wrapper {
+    padding: 1rem;
+    justify-content: center;
+  }
+  
   
   .signup-section {
     padding: 10rem 0;
