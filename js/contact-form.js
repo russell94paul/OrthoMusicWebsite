@@ -35,28 +35,23 @@ $(document).ready(function() {
                 }
 							} break;
 							default: break;
-						}
-						// previous implementation with ifs
-            /*if (e.type == 'keyup') {
-                if( $this.val() == '' ) {
-                    $parent.addClass('js-hide-label'); 
-                } else {
-                    $parent.removeClass('js-hide-label');   
-                }                     
-            } 
-            else if (e.type == 'blur') {
-                if( $this.val() == '' ) {
-                    $parent.addClass('js-hide-label');
-                } 
-                else {
-                    $parent.removeClass('js-hide-label').addClass('js-unhighlight-label');
-                }
-            } 
-            else if (e.type == 'focus') {
-                if( $this.val() !== '' ) {
-                    $parent.removeClass('js-unhighlight-label');
-                }
-            }*/
+                        }
+                        
+						
         });
-    } 
+    }
+
+    function validateForm() {
+        var name = document.forms["contact-form"]["name"].value;
+        var email = document.forms["contact-form"]["email"].value;
+        var subject = document.forms["contact-form"]["subject"].value;
+        var message = document.forms["contact-form"]["message"].value; 
+
+        if (name == "" || email == "" || subject == "" || message == "") {
+          alert("This is a mandatory field.");
+          return false;
+        }
+      }
+    
+    
 });
