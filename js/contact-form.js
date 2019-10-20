@@ -52,6 +52,10 @@ $(document).ready(function() {
           return false;
         }
       }
+      function sendMail(str) {
+        var link = "mailto:slim.hmidi1@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
+        location.href = link;
+    }
     
     
 });
