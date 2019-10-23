@@ -53,7 +53,7 @@ $(document).ready(function() {
         }
       }
       function sendMail(str) {
-        var link = "mailto:slim.hmidi1@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
+        var link = "mailto:bryan@orthomusic.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
         location.href = link;
     }
     
