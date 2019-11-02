@@ -93,7 +93,7 @@
 #mainNav .navbar-nav .nav-item:hover {
   color: fade (#161616, 80%);
   outline: none;
-  background-color: transparent;
+  background-color: #161616;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -106,7 +106,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: solid;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -125,7 +125,7 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #161616;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -146,6 +146,10 @@
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
+}
+
+#nav-text {
+  color: white;
 }
 
 .masthead {
