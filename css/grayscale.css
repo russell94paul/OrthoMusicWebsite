@@ -86,8 +86,9 @@
 
 #mainNav .navbar-brand {
   color: #161616;
-  font-weight: 700;
+  font-weight: 800;
   padding: .9rem 0;
+  font-size: 2rem;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -231,7 +232,7 @@
 }
 
 .about-section {
-  padding-top: rem;
+  padding-top: 2rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
